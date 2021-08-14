@@ -71,7 +71,7 @@ ul#links li {
 }
 
 main {
-  margin: 150px;
+  margin: 10px;
   padding: 50px;
 }
 
@@ -83,6 +83,29 @@ main {
 
 #email {
   display: inline;
+}
+
+#purchase-button {
+  background: #FFE082;
+  border-radius: 5px;
+  width: 7vw;
+  height: 35px;
+  box-shadow: -2px 2px 5px;
+  font-size: Large;
+}
+
+#purchase-button:hover {
+  background: #FDD835;
+}
+
+section {
+  margin: 60px 0 0 0;
+}
+
+.similar-products {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 @media (max-width:800px) {
@@ -97,7 +120,7 @@ main {
   }
   
   body {
-    overflow: hidden;
+    
   }
   
   h1 {
@@ -131,5 +154,26 @@ main {
   main {
     margin: auto;
     transform: translate(-10%)
+  }
+  
+  .similar-products {
+    width: 80%;
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  figcaption {
+    font-size: 30px;
+  }
+  
+  #purchase-button {
+    width: 30vw;
+    height: 35px;
+  }
+  
+  img {
+    width:90%
+    margin: auto;
   }
 }
